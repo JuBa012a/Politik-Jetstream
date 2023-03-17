@@ -10,14 +10,27 @@
   <!Importiert style.css!>
   <!CSS sind Style Dateien!>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <!Importiert die Schriftart!>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet"> 
+  <script src="jquery-3.6.3.min.js"></script>
 </head>
 
 <body>
-  Coming soon...
-  <!Importiert script.js!>
+	<div class="content">
+		<div class="header">
+			<div class="title-message">
+			Coming soon...
+			</div>
+			<button class="toggledarkbutton" onclick="toggleLightDark()"><img src="Photos/toggledarklight.png" class="toggledarkicon" id="toggledarkicon"></button>
+		</div>
+	</div>
+	<!Importiert script.js!>
   <!JS steht für JavaScript!>
-  <script src="script.js"></script>
+  <script src="script.java"></script>
+  <script>var content = document.querySelector('.content'); if(localStorage.getItem('darkmode')!=null){ content.classList.add("dark-mode");}
+  var content = document.querySelector('.toggledarkbutton'); if(localStorage.getItem('darkmode')!=null){ $('.toggledarkbutton').addClass('dark-mode toggledarkbutton-dark'); $('.header').addClass('header-dark'); $('.toggledarkicon').attr('src','Photos/toggledarkdark.png');}</script>
 
 </body>
-
 </html>

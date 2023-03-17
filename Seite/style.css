@@ -1,0 +1,51 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+}
+
+.header{
+	height:194px;
+	background-color:#E8E8E8;
+	border-bottom:5px solid #E2E2E2;
+}
+
+.header-dark{
+	background-color:#151515;
+	border-bottom: 5px solid #323232;
+}
+
+.content{
+	height:100vh;
+	width:100%;
+	background-color:#FAFAFA;
+}
+
+.dark-mode{
+		background-color:#212121;
+		color: #FAFAFA;
+}
+
+.toggledarkbutton{
+	border: 1px solid #212121;
+	position:absolute; 
+	top:0; 
+	right:0; 
+	background-color:transparent;
+	border-radius:7px;
+	padding: 5px 5px 3px 5px;
+}
+
+.toggledarkbutton-dark{
+	border: 1px solid #FAFAFA;
+}
+
+.toggledarkicon{
+	height:16px;
+	width:16px;
+}
+
+.title-message{
+	text-align:center;
+	font-size:200%;
+	padding: 5px 0px 0px 0px;
+}

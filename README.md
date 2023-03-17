@@ -5,3 +5,24 @@ Um dieses Projekt zu starten befolge diese Schritte:
 2. Klicke auf Download ZIP
 3. Extrahiere die ZIP in irgendeinen Ordner
 4. Öffne "Main.html"
+
+# Änderungen in dieser Version
+
++ Added Dark Mode :)
++ Added Header
++ Changed Header Style
+
+# Content Checklist
+
+- [x] Title
+- [ ] Page Header
+- [ ] Main Page
+- [ ] Base Artikel Seite
+- [ ] Sidebar
+
+# Header Checklist
+
+- [x] Header Height
+- [x] Different Header Background
+- [ ] Header Navigation Buttons
+- [ ] Working Header Navigation Buttons
