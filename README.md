@@ -8,9 +8,9 @@ Um dieses Projekt zu starten befolge diese Schritte:
 
 # Änderungen in dieser Version
 
-+ Die Schriftart wurde zu Roboto geändert  
-+ style.css und script.js wurden hinzugefügt  
-+ Mehrere Divs wurden hinzugefügt  
++ Added Dark Mode :)
++ Added Header
++ Changed Header Style
 
 # Content Checklist
 
@@ -19,3 +19,10 @@ Um dieses Projekt zu starten befolge diese Schritte:
 - [ ] Main Page
 - [ ] Base Artikel Seite
 - [ ] Sidebar
+
+# Header Checklist
+
+- [x] Header Height
+- [x] Different Header Background
+- [ ] Header Navigation Buttons
+- [ ] Working Header Navigation Buttons
