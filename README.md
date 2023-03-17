@@ -8,6 +8,6 @@ Um dieses Projekt zu starten befolge diese Schritte:
 
 # Änderungen in dieser Version
 
--Die Schriftart wurde zu Roboto geändert
--style.css und script.js wurden hinzugefügt
--Mehrere Divs wurden hinzugefügt
+Die Schriftart wurde zu Roboto geändert
+style.css und script.js wurden hinzugefügt
+Mehrere Divs wurden hinzugefügt
