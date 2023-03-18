@@ -14,11 +14,6 @@ body{
 	border-bottom: 5px solid #323232;
 }
 
-.header-dark{
-	background-color:#F00 !important;
-	border-bottom: 5px solid #323232;
-}
-
 .content{
 	height:100vh;
 	width:100%;
