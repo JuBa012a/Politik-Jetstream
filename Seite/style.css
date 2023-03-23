@@ -6,7 +6,8 @@ body{
 .header{
 	height:194px;
 	background-color:#E8E8E8;
-	border-bottom:5px solid #E2E2E2;
+	border-bottom:5px solid #E0E0E0;
+  position:relative;
 }
 
 .header-dark{
@@ -27,9 +28,9 @@ body{
 
 .toggledarkbutton{
 	border: 1px solid #212121;
-	position:absolute; 
-	top:0; 
-	right:0; 
+	position:absolute;
+	top:0;
+	right:0;
 	background-color:transparent;
 	border-radius:7px;
 	padding: 5px 5px 3px 5px;
@@ -55,8 +56,8 @@ body{
 	padding: 5px 5px 5px 15px;
 }
 
-form{
-	border: 1px solid #000000;
+#search-form{
+	border: 1px solid #999;
 	border-radius: 25px;
 	width: 300px;
 	height: 44px;
@@ -66,4 +67,27 @@ form{
 
 .search-button{
 	all: unset;
+}
+
+.navbar{
+padding: 10px 0;
+  background-color:#00000003;
+  position:absolute;
+  z-index: 99;
+  text-align: center;
+  bottom: 0;
+  width:100%;
+  border-top:5px solid #E0E0E0;
+}
+
+.navbar-dark{
+  background-color:#FFFFFF10;
+  border-top: 5px solid #323232;
+}
+div{
+  display: block;
+}
+
+a{
+  all:unset;
 }
