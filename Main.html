@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!Sorgt dafür dass Ä,Ö,Ü und andere zeichen klappen!>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <!Webseitentitel!>
+  <title>Website coming soon...</title>
+  <!Importiert style.css!>
+  <!CSS sind Style Dateien!>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!Importiert die Schriftart!>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+	<div class="content">
+		<div class="header">
+			<div class="title-message">
+			Coming soon...
+			</div>
+			<button class="toggledarkbutton" onclick="toggleLightDark()"><img src="Photos/toggledarklight.png" class="toggledarkicon" id="toggledarkicon"></button>
+      <div class="navbar">
+<a href="google.com">Hello</a>
+      </div>
+		</div>
+		<div class="main-content">
+          <div class="search-container">
+            <form id="search-form" role="search">
+              <input type="text" id="query" name="q" placeholder="Search..." aria-label="Search through site content" class="searchbar">
+                <button class="search-button"><span class="material-symbols-outlined search-icon">
+                search
+                </span>
+              </button>
+            </form>
+          </div>
+		</div>
+	</div>
+	<!Importiert script.js!>
+  <!JS steht für JavaScript!>
+  <script src="script.java"></script>
+  <script>var content = document.querySelector('.content'); if(localStorage.getItem('darkmode')!=null){ content.classList.add("dark-mode");}
+  var content = document.querySelector('.toggledarkbutton'); if(localStorage.getItem('darkmode')!=null){ $('.toggledarkbutton').addClass('dark-mode toggledarkbutton-dark'); $('.header').addClass('header-dark'); $('.toggledarkicon').attr('src','Photos/toggledarkdark.png');}</script>
+  <script>
+const f = document.getElementById('search-form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
+</body>
+</html>
