@@ -24,5 +24,6 @@ Um dieses Projekt zu starten befolge diese Schritte:
 
 - [x] Header Height
 - [x] Different Header Background
-- [ ] Header Navigation Buttons
-- [ ] Working Header Navigation Buttons
+- [ ] Header Navigation Bar
+- [ ] Navigation Bar Content
+- [x] Search Bar
