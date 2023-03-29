@@ -8,10 +8,16 @@ Um dieses Projekt zu starten befolge diese Schritte:
 
 # Änderungen in dieser Version
 
-+ Added Dark Mode :)
-+ Added Header
-+ Changed Header Style
++ Added Navbar
++ Changed Style of Header
++ Added Background Image for light and dark mode
++ Moved Search Bar to navbar right
++ Changed Style of Elements in Navbar
++ Added Debug Text "Yo" to main content
 
+# Aktuelle Probleme
+
++ Die Icons vom Dark Mode Button laden nicht
 # Content Checklist
 
 - [x] Title
