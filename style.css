@@ -6,24 +6,26 @@ body{
 .header{
 	height:194px;
 	background-color:#E8E8E8;
-	border-bottom:5px solid #E0E0E0;
+	border-bottom:5px solid #ffdbf0;
   position:relative;
 }
 
 .header-dark{
 	background-color:#151515;
-	border-bottom: 5px solid #323232;
+	border-bottom: 5px solid #33121F;
 }
 
 .content{
 	height:100vh;
 	width:100%;
 	background-color:#FAFAFA;
+    background-image: url('photos/tilebg.png');
 }
 
 .dark-mode{
-		background-color:#212121;
-		color: #FAFAFA;
+	background-color:#212121;
+	color: #FAFAFA;
+	background-image: url('photos/tilebg-dark.png');
 }
 
 .toggledarkbutton{
@@ -57,16 +59,19 @@ body{
 }
 
 #search-form{
-	border: 1px solid #999;
+	border: 1px solid #913459;
 	border-radius: 25px;
 	width: 300px;
 	height: 44px;
 	display:flex;
 	margin: auto;
+  float: right;
 }
 
 .search-button{
 	all: unset;
+	margin-left: 60px;
+	color: #913459;
 }
 
 .navbar{
@@ -77,12 +82,18 @@ padding: 10px 0;
   text-align: center;
   bottom: 0;
   width:100%;
-  border-top:5px solid #E0E0E0;
+  border-top:5px solid #ffdbf0;
+}
+
+.navbar a{
+   position: absolute;
+  top: 40%;
+  left: 5px;
 }
 
 .navbar-dark{
   background-color:#FFFFFF10;
-  border-top: 5px solid #323232;
+  border-top: 5px solid #33121F;
 }
 div{
   display: block;
@@ -90,4 +101,8 @@ div{
 
 a{
   all:unset;
+}
+
+.main-content{
+	margin: 10px;
 }

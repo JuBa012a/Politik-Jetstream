@@ -10,8 +10,8 @@ function toggleLightDark() {
 	 window.localStorage.removeItem('darkmode');
   }
   if(localStorage.getItem('darkmode')==null){
-	$('#toggledarkicon').attr('src','Photos/toggledarklight.png');
+	$('#toggledarkicon').attr('src','photos/toggledark.png');
   } else {
-	  $('#toggledarkicon').attr('src','Photos/toggledarkdark.png');
+	  $('#toggledarkicon').attr('src','photos/toggledark-dark.png');
   }
 }

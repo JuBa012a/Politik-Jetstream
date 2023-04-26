@@ -23,13 +23,10 @@
 			<div class="title-message">
 			Coming soon...
 			</div>
-			<button class="toggledarkbutton" onclick="toggleLightDark()"><img src="Photos/toggledarklight.png" class="toggledarkicon" id="toggledarkicon"></button>
+			<button class="toggledarkbutton" onclick="toggleLightDark()"><img src="Photos/toggledark.png" class="toggledarkicon" id="toggledarkicon"></button>
       <div class="navbar">
-<a href="google.com">Hello</a>
-      </div>
-		</div>
-		<div class="main-content">
-          <div class="search-container">
+<a href="google.com">What's up?</a>
+        <div class="search-container">
             <form id="search-form" role="search">
               <input type="text" id="query" name="q" placeholder="Search..." aria-label="Search through site content" class="searchbar">
                 <button class="search-button"><span class="material-symbols-outlined search-icon">
@@ -37,14 +34,20 @@
                 </span>
               </button>
             </form>
-          </div>
+        </div>
+      </div>
+		</div>
+		<div class="main-content">
+			<div class="introduction">
+				Yo
+			</div>
 		</div>
 	</div>
 	<!Importiert script.js!>
   <!JS steht für JavaScript!>
   <script src="script.java"></script>
   <script>var content = document.querySelector('.content'); if(localStorage.getItem('darkmode')!=null){ content.classList.add("dark-mode");}
-  var content = document.querySelector('.toggledarkbutton'); if(localStorage.getItem('darkmode')!=null){ $('.toggledarkbutton').addClass('dark-mode toggledarkbutton-dark'); $('.header').addClass('header-dark'); $('.toggledarkicon').attr('src','Photos/toggledarkdark.png');}</script>
+  var content = document.querySelector('.toggledarkbutton'); if(localStorage.getItem('darkmode')!=null){ $('.toggledarkbutton').addClass('dark-mode toggledarkbutton-dark'); $('.header').addClass('header-dark'); $('.toggledarkicon').attr('src','Photos/toggledark.png'); $('.navbar').addClass('navbar-dark'); $('#toggledarkicon').attr('src','photos/toggledark-dark.png');}</script>
   <script>
 const f = document.getElementById('search-form');
       const q = document.getElementById('query');
