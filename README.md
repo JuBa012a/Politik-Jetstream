@@ -17,8 +17,7 @@ Um dieses Projekt zu starten befolge diese Schritte:
 
 # Aktuelle Probleme
 
-+ May look weird if the screen resolution isn't 1920x1080 and the Window isn't maximized
-
++ Die Icons vom Dark Mode Button laden nicht
 # Content Checklist
 
 - [x] Title

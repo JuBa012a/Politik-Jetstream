@@ -12,7 +12,7 @@ body{
 
 .header-dark{
 	background-color:#151515;
-	border-bottom: 5px solid #d34b80;
+	border-bottom: 5px solid #33121F;
 }
 
 .content{
@@ -59,7 +59,7 @@ body{
 }
 
 #search-form{
-	border: 1px solid #999;
+	border: 1px solid #913459;
 	border-radius: 25px;
 	width: 300px;
 	height: 44px;
@@ -70,6 +70,8 @@ body{
 
 .search-button{
 	all: unset;
+	margin-left: 60px;
+	color: #913459;
 }
 
 .navbar{
@@ -91,7 +93,7 @@ padding: 10px 0;
 
 .navbar-dark{
   background-color:#FFFFFF10;
-  border-top: 5px solid #d34b80;
+  border-top: 5px solid #33121F;
 }
 div{
   display: block;
@@ -99,4 +101,8 @@ div{
 
 a{
   all:unset;
+}
+
+.main-content{
+	margin: 10px;
 }
